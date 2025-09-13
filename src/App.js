@@ -6,7 +6,7 @@ import "./index.css";
 export default function App() {
   const [search, setSearch] = useState("");
 
-  const filtered = camps.filter(c =>
+  const filtered = camps.filter((c) =>
     JSON.stringify(c).toLowerCase().includes(search.toLowerCase())
   );
 
