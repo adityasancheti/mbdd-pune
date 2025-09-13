@@ -222,7 +222,7 @@ h1 {
 .bottom-image,
 .pdf-preview {
   max-width: 100%;
-  height: auto;
+  height: 100vh;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
@@ -280,4 +280,35 @@ h1 {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffdcdc;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* adds contrast */
+  margin-top: 0.5rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInGlow 2s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInGlow {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    text-shadow: 0 0 0 #fff;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+    text-shadow: 0 0 10px #ffeb3b, 0 0 20px #ff5722;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    color: 0 0 5px #fff;
+  }
 }

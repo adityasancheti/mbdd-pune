@@ -30,6 +30,10 @@ export default function App() {
         />
       </header>
 
+      <p className="tagline">
+        दुनिया की सबसे बड़ी Blood Donation Drive का हिस्सा बनें, <strong><u>Register</u></strong> now!!
+      </p>
+
       <input
         id="search"
         type="text"
@@ -68,14 +72,14 @@ export default function App() {
           className="bottom-image"
           loading="lazy"
         />
-      </div>
 
-      <img
-        src={process.env.PUBLIC_URL + "/Thanks.webp"}
-        alt="Event Thanks"
-        className="pdf-preview"
-        loading="lazy"
-      />
+        <img
+          src={process.env.PUBLIC_URL + "/Thanks.webp"}
+          alt="Event Thanks"
+          className="pdf-preview"
+          loading="lazy"
+        />
+      </div>
 
       <footer className="footer">
         <p>
