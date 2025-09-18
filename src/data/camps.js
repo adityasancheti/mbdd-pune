@@ -22,7 +22,8 @@ const camps = [
       { name: "Naveen", phone: "9373535320" },
       { name: "Saurabh", phone: "9373956279" },
     ],
-    register: "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152685&type=0",
+    register:
+      "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152685&type=0",
     map: "https://maps.app.goo.gl/ZRR345YU8JhbVMs26",
   },
   {
@@ -61,7 +62,8 @@ const camps = [
       { name: "Kavish", phone: "8888800686" },
       { name: "Sanyam", phone: "9977009905" },
     ],
-    register: "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152684&type=0",
+    register:
+      "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152684&type=0",
     map: "https://maps.app.goo.gl/EbfVfoYqyQzwVRhm6",
   },
   {
@@ -80,7 +82,11 @@ const camps = [
     name: "WADIA COLLEGE PUNE",
     address: "PRIN. V. K. JOAG PATH, BUND GARDEN RD, PUNE 411001",
     bloodBank: "Sasoon Blood Centre Pune",
-    contacts: [{ name: "Rajesh", phone: "8805859836" }],
+    contacts: [
+      { name: "Chirag", phone: "" },
+      { name: "Ashish", phone: "" },
+      { name: "Rajesh", phone: "8805859836" },
+    ],
     register:
       "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152209&type=0",
     map: "https://maps.app.goo.gl/fDFejKjKMd3pzXjw8",
@@ -92,7 +98,8 @@ const camps = [
     bloodBank:
       "Sarvodaya Samaj Vikas Sanstha, R.G Gholap Memorial Blood Centre Pune",
     contacts: [{ name: "Kalpesh", phone: "9552355500" }],
-    register: "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152682&type=0",
+    register:
+      "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152682&type=0",
     map: "https://maps.app.goo.gl/PbsPHB7pHsRZh3vP9",
   },
   {
@@ -103,7 +110,8 @@ const camps = [
       { name: "Sumit", phone: "9028633444" },
       { name: "Mudit", phone: "8446969583" },
     ],
-    register: "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152667&type=0",
+    register:
+      "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/portalDonorRegistrationNew.cnt?&campid=1152667&type=0",
     map: "https://maps.app.goo.gl/1W13b3fYLJmLQ79P6",
   },
   {
@@ -116,7 +124,8 @@ const camps = [
       { name: "Anand", phone: "9890934235" },
       { name: "Deepak", phone: "9836253339" },
     ],
-    register: "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/campSchedule.cnt",
+    register:
+      "https://eraktkosh.mohfw.gov.in/BLDAHIMS/bloodbank/campSchedule.cnt",
     map: "https://maps.app.goo.gl/Z9CNtxmYxLeUtta4A",
   },
 ];

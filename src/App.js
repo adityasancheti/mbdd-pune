@@ -31,22 +31,26 @@ export default function App() {
       </header>
 
       <p className="tagline">
-        दुनिया की सबसे बड़ी Blood Donation Drive का हिस्सा बनें, <strong><u>Register</u></strong> now!!
+        We thank you for donating your valuable blood for the noble cause!
       </p>
 
-      <input
+      {/* <p className="tagline">
+        दुनिया की सबसे बड़ी Blood Donation Drive का हिस्सा बनें, <strong><b>Register</b></strong> now!!
+      </p> */}
+
+      {/* <input
         id="search"
         type="text"
         placeholder="🔍 Search blood camp, area, or name..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-      />
+      /> */}
 
-      <div className="camp-container">
+      {/* <div className="camp-container">
         {filtered.map((camp, i) => (
           <CampCard key={i} camp={camp} />
         ))}
-      </div>
+      </div> */}
 
       {/* Local TYP Contacts */}
       <div className="contacts-section">
@@ -66,12 +70,12 @@ export default function App() {
       </div>
 
       <div className="bottom-section">
-        <img
+        {/* <img
           src={process.env.PUBLIC_URL + "/donate_blood.jpg"}
           alt="Event Banner"
           className="bottom-image"
           loading="lazy"
-        />
+        /> */}
 
         <img
           src={process.env.PUBLIC_URL + "/Thanks.webp"}
