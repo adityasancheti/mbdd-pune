@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mbdd-pune/static/css/main.f718b76e.css",
-    "main.js": "/mbdd-pune/static/js/main.b360261c.js",
+    "main.css": "/mbdd-pune/static/css/main.d12f3399.css",
+    "main.js": "/mbdd-pune/static/js/main.90ae2801.js",
     "static/js/453.e40be6a8.chunk.js": "/mbdd-pune/static/js/453.e40be6a8.chunk.js",
     "index.html": "/mbdd-pune/index.html",
-    "main.f718b76e.css.map": "/mbdd-pune/static/css/main.f718b76e.css.map",
-    "main.b360261c.js.map": "/mbdd-pune/static/js/main.b360261c.js.map",
+    "main.d12f3399.css.map": "/mbdd-pune/static/css/main.d12f3399.css.map",
+    "main.90ae2801.js.map": "/mbdd-pune/static/js/main.90ae2801.js.map",
     "453.e40be6a8.chunk.js.map": "/mbdd-pune/static/js/453.e40be6a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f718b76e.css",
-    "static/js/main.b360261c.js"
+    "static/css/main.d12f3399.css",
+    "static/js/main.90ae2801.js"
   ]
 }
